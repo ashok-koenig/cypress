@@ -1,0 +1,8 @@
+let myVariable = 100;
+console.log(myVariable," data type is ", typeof myVariable)
+
+myVariable = "My Message";
+console.log(myVariable," data type is ", typeof myVariable)
+
+myVariable = true
+console.log(myVariable," data type is ", typeof myVariable)
