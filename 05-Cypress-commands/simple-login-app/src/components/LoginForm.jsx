@@ -26,6 +26,7 @@ const LoginForm = () => {
           <label>Username</label>
           <input
             type="text"
+            data-testid="username-input"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             placeholder="Enter your username"
@@ -35,13 +36,14 @@ const LoginForm = () => {
           <label>Password</label>
           <input
             type="password"
+            data-testid="password-input"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Enter your password"
           />
         </div>
-        {error && <p className="error">{error}</p>}
-        <button type="submit">Login</button>
+        {error && <p data-testid="error-message" className="error">{error}</p>}
+        <button data-testid="submit-button" type="submit">Login</button>
       </form>
     </div>
   );
