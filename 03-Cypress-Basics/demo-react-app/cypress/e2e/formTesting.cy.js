@@ -12,7 +12,8 @@ describe("React Form Testing", ()=> {
 
     beforeEach(()=>{
         // Runs before each test
-        cy.visit(Cypress.env("appUrl"))
+        // cy.visit(Cypress.env("appUrl"))
+        cy.visit("/")
     })
 
     afterEach(()=>{
