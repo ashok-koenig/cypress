@@ -26,6 +26,7 @@ const TodoItem = ({ todo, toggleTodo, deleteTodo, editTodo }) => {
         <>
           <input
             type="checkbox"
+            data-testid="todo-toggle"
             checked={todo.completed}
             onChange={() => toggleTodo(todo.id)}
           />
