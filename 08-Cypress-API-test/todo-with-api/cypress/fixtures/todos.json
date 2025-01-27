@@ -1,0 +1,4 @@
+[
+    {"id": 1, "title": "Fixture Todo 1", "completed": true}, 
+    {"id": 2, "title": "Fixture Todo 2", "completed": false}
+]
