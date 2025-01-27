@@ -1,0 +1,20 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Install cypress npm",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "title": "Lauch cypress test runner",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Write test cases",
+      "completed": false
+    }
+
+  ]
+}
